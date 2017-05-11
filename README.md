@@ -1,30 +1,28 @@
 # ionic-appconfig
 Example code for using AppConfig with Ionic Framework to allow an EMM provider to provide dynamic data to your ionic app.
 
-# Project Title
-
-One Paragraph of project description goes here
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You need a working Ionic build environment to take advantage of this project.
+You will also need Ionic Native Storage as well. 
 
 ```
-Give examples
+Node.js https://nodejs.org/en/
+Ionic Framework & Cordova http://ionicframework.com/getting-started/
+Ionic Native Storage http://ionicframework.com/docs/native/native-storage/
+
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Follow the links above to the prerequisites and install them. 
 
 ```
-Give the example
+Be sure to add the platforms you will compile to. http://ionicframework.com/docs/cli/platform/
 ```
 
 And repeat
