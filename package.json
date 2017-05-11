@@ -1,8 +1,8 @@
 {
-  "name": "ionic-hello-world",
-  "version": "0.0.0",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "ionic-appconfig",
+  "version": "0.0.1",
+  "author": "MrTechGadget",
+  "homepage": "http://mrtechgadget.com/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -21,6 +21,7 @@
     "@angular/platform-browser": "4.1.0",
     "@angular/platform-browser-dynamic": "4.1.0",
     "@ionic-native/core": "3.7.0",
+    "@ionic-native/native-storage": "^3.7.0",
     "@ionic-native/splash-screen": "3.7.0",
     "@ionic-native/status-bar": "3.7.0",
     "@ionic/storage": "2.0.1",
@@ -43,5 +44,10 @@
     "cordova-plugin-statusbar"
   ],
   "cordovaPlatforms": [],
-  "description": "ionic-appconfig: An Ionic project"
+  "description": "ionic-appconfig: An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-nativestorage": {}
+    }
+  }
 }

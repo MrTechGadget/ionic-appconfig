@@ -45,7 +45,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Author
 
-* **Joshua Clark** - [audioeng](https://github.com/audioeng)
+* **Joshua Clark** - [audioeng](https://github.com/audioeng) [MrTechGadget](http://mrtechgadget.com/)
 
 See also the list of [contributors](https://github.com/audioeng/ionic-appconfig/contributors) who participated in this project.
 
