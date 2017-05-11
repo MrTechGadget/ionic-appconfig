@@ -21,37 +21,12 @@ You will also need Ionic Native Storage as well.
 
 Follow the links above to the prerequisites and install them. 
 
-
 Be sure to add the [platforms](http://ionicframework.com/docs/cli/platform/) you will compile to.
 
+* Clone this repository: `git clone https:/github.com/audioeng/ionic-appconfig.git`.
+* Run `npm install` from the project root.
+* Run `ionic serve` in a terminal from the project root.
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
@@ -69,20 +44,18 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+## Author
 
-## Authors
+* **Joshua Clark** - [audioeng](https://github.com/audioeng)
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/audioeng/ionic-appconfig/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache License v2.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* 
+* 
+* 
