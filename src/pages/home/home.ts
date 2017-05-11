@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, Platform } from 'ionic-angular';
+import { NativeStorage } from '@ionic-native/native-storage';
+
 
 @Component({
   selector: 'page-home',
@@ -7,8 +9,27 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  platformOS;
+  platformOrientation;
 
+
+  constructor(public platform:Platform, public navCtrl: NavController) {
+    this.platform.ready().then(() => {
+      this.platformOS = this.platform.platforms();
+      if (this.platform.isPortrait()) {
+        this.platformOrientation = "portrait";
+      } else this.platformOrientation = "landscape";
+    });
   }
+
+ // getValue(key: string) {
+ //   this.nativeStorage.getItem(key)
+ //     .then(
+ //       data => console.log(data),
+ //       error => console.error(error)
+ //     );
+ // }
+
+  //private nativeStorage: NativeStorage, 
 
 }
