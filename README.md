@@ -11,9 +11,9 @@ You need a working Ionic build environment to take advantage of this project.
 You will also need Ionic Native Storage as well. 
 
 
-* [Node.js] (https://nodejs.org/en/)
-* [Ionic Framework & Cordova] (http://ionicframework.com/getting-started/)
-* [Ionic Native Storage] (http://ionicframework.com/docs/native/native-storage/)
+* [Node.js](https://nodejs.org/en/)
+* [Ionic Framework & Cordova](http://ionicframework.com/getting-started/)
+* [Ionic Native Storage](http://ionicframework.com/docs/native/native-storage/)
 
 
 
@@ -22,7 +22,7 @@ You will also need Ionic Native Storage as well.
 Follow the links above to the prerequisites and install them. 
 
 
-Be sure to add the [platforms] you will compile to. (http://ionicframework.com/docs/cli/platform/)
+Be sure to add the [platforms](http://ionicframework.com/docs/cli/platform/) you will compile to.
 
 
 And repeat
