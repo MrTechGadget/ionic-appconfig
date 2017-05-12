@@ -11,6 +11,7 @@ export class HomePage {
 
   platformOS;
   platformOrientation;
+  appconfigSettings;
 
 
   constructor(public platform:Platform, public navCtrl: NavController) {
@@ -19,7 +20,7 @@ export class HomePage {
       if (this.platform.isPortrait()) {
         this.platformOrientation = "portrait";
       } else this.platformOrientation = "landscape";
-      this.getValue('testA');
+      this.getValue('com.apple.configuration.managed');
     });
   }
 
@@ -28,8 +29,8 @@ export class HomePage {
         let nativeStorage: NativeStorage;
         nativeStorage.getItem(key)
           .then(
-            data => console.log(data),
-            error => console.log(error)
+            data => this.appconfigSettings = data,
+            error => this.appconfigSettings = error
           )
       } else console.warn('Native Storage not available on this device')
   };
