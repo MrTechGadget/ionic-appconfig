@@ -21,6 +21,7 @@ export class HomePage {
         this.platformOrientation = "portrait";
       } else this.platformOrientation = "landscape";
       this.getValue('com.apple.configuration.managed');
+      this.getValue('testA');
     });
   }
 
