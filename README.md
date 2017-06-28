@@ -14,6 +14,7 @@ You will also need Ionic Native Storage as well.
 * [Node.js](https://nodejs.org/en/)
 * [Ionic Framework & Cordova](http://ionicframework.com/getting-started/)
 * [Ionic Native Storage](http://ionicframework.com/docs/native/native-storage/)
+* [cordova-plugin-emm-app-config](https://github.com/oracle/cordova-plugin-emm-app-config)
 
 
 
@@ -53,8 +54,10 @@ See also the list of [contributors](https://github.com/audioeng/ionic-appconfig/
 
 This project is licensed under the Apache License v2.0 - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+[cordova-plugin-emm-app-config](https://github.com/oracle/cordova-plugin-emm-app-config) which is used in this project is licensed under [The Universal Permissive License](https://opensource.org/licenses/UPL)
 
-* 
-* 
+## Acknowledgments
+Thank you to the following:
+* Kevin Clark - For pointing me to Ionic Framework
+* Oracle for making the AppConfig cordova plugin
 * 
