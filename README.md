@@ -59,6 +59,6 @@ This project is licensed under the Apache License v2.0 - see the [LICENSE.md](LI
 
 ## Acknowledgments
 Thank you to the following:
-* Kevin Clark - For pointing me to Ionic Framework
+* [Kevin Clark](http://www.techbykevinclark.com/) - For pointing me to Ionic Framework
 * Oracle for making the [EmmAppConfig cordova plugin](https://github.com/oracle/cordova-plugin-emm-app-config)
 * 
