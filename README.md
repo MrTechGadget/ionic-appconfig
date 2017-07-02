@@ -8,13 +8,12 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 You need a working Ionic build environment to take advantage of this project.
-You will also need Ionic Native Storage as well. 
+You will also need the cordova appconfig plugin as well. 
 
 
 * [Node.js](https://nodejs.org/en/)
 * [Ionic Framework & Cordova](http://ionicframework.com/getting-started/)
-* [Ionic Native Storage](http://ionicframework.com/docs/native/native-storage/)
-* [cordova-plugin-emm-app-config](https://github.com/oracle/cordova-plugin-emm-app-config)
+* [cordova-plugin-appconfig](https://github.com/audioeng/cordova-plugin-appconfig)
 
 
 
@@ -26,7 +25,9 @@ Be sure to add the [platforms](http://ionicframework.com/docs/cli/platform/) you
 
 * Clone this repository: `git clone https:/github.com/audioeng/ionic-appconfig.git`.
 * Run `npm install` from the project root.
-* Run `ionic serve` in a terminal from the project root.
+* Run `cordova plugin add cordova-plugin-appconfig` from the project root.
+* Run `ionic cordova platform add ios android` from the project root.
+* Run `ionic build` for your platform of choice in a terminal from the project root.
 
 
 ## Deployment
@@ -54,10 +55,10 @@ See also the list of [contributors](https://github.com/audioeng/ionic-appconfig/
 
 This project is licensed under the Apache License v2.0 - see the [LICENSE.md](LICENSE.md) file for details
 
-[cordova-plugin-emm-app-config](https://github.com/oracle/cordova-plugin-emm-app-config) which is used in this project is licensed under [The Universal Permissive License](https://opensource.org/licenses/UPL)
+[cordova-plugin-appconfig](https://github.com/audioeng/cordova-plugin-appconfig) which is used in this project is licensed under [The Universal Permissive License](https://opensource.org/licenses/UPL) It is based on the work by [oracle](https://github.com/oracle/cordova-plugin-emm-app-config)
 
 ## Acknowledgments
 Thank you to the following:
 * Kevin Clark - For pointing me to Ionic Framework
-* Oracle for making the AppConfig cordova plugin
+* Oracle for making the [EmmAppConfig cordova plugin](https://github.com/oracle/cordova-plugin-emm-app-config)
 * 
