@@ -1,6 +1,6 @@
 {
     "name": "com.mrtechgadget.appconfig",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "author": "MrTechGadget",
     "homepage": "http://mrtechgadget.com/",
     "private": true,
@@ -27,7 +27,7 @@
         "@ionic/storage": "2.0.1",
         "cordova-android": "^6.2.3",
         "cordova-ios": "^4.4.0",
-        "cordova-plugin-appconfig": "^1.1.4",
+        "cordova-plugin-emm-app-config": "^1.0.2",
         "cordova-plugin-console": "^1.0.7",
         "cordova-plugin-device": "^1.1.6",
         "cordova-plugin-screen-orientation": "^2.0.1",
@@ -56,7 +56,7 @@
             "cordova-plugin-statusbar": {},
             "cordova-plugin-whitelist": {},
             "ionic-plugin-keyboard": {},
-            "cordova-plugin-appconfig": {}
+            "cordova-plugin-emm-app-config": {}
         },
         "platforms": [
             "android",

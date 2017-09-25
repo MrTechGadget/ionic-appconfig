@@ -27,8 +27,8 @@ export class HomePage {
   getValue(key) {
     this.platform.ready().then(() => {
       if (this.platform.is('cordova')) {
-      console.log(cordova.plugins.AppConfig.getValue(key));
-      this.appconfigSettings = JSON.stringify(cordova.plugins.AppConfig.getValue(key));
+      console.log(cordova.plugins.EmmAppConfig.getValue(key));
+      this.appconfigSettings = JSON.stringify(cordova.plugins.EmmAppConfig.getValue(key));
       } else this.appconfigSettings = 'AppConfig not available on this device';
     });
   }
