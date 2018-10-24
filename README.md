@@ -48,7 +48,7 @@ Semantic Versioning will be used. See [https://semver.org/](https://semver.org/)
 
 ## Author
 
-* **Joshua Clark** - [audioeng](https://github.com/audioeng) [MrTechGadget](http://mrtechgadget.com/)
+* **Joshua Clark** - [MrTechGadget Github](https://github.com/MrTechGadget) [MrTechGadget Website](http://mrtechgadget.com/)
 
 See also the list of [contributors](https://github.com/audioeng/ionic-appconfig/contributors) who participated in this project.
 
