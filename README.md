@@ -50,13 +50,13 @@ Semantic Versioning will be used. See [https://semver.org/](https://semver.org/)
 
 * **Joshua Clark** - [MrTechGadget Github](https://github.com/MrTechGadget) [MrTechGadget Website](http://mrtechgadget.com/)
 
-See also the list of [contributors](https://github.com/audioeng/ionic-appconfig/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/MrTechGadget/ionic-appconfig/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the Apache License v2.0 - see the [LICENSE.md](LICENSE.md) file for details
 
-[cordova-plugin-appconfig](https://github.com/audioeng/cordova-plugin-appconfig) which is used in this project is licensed under [The Universal Permissive License](https://opensource.org/licenses/UPL) It is based on the work by [oracle](https://github.com/oracle/cordova-plugin-emm-app-config)
+[cordova-plugin-appconfig](https://github.com/MrTechGadget/cordova-plugin-appconfig) which is used in this project is licensed under [The Universal Permissive License](https://opensource.org/licenses/UPL) It is based on the work by [oracle](https://github.com/oracle/cordova-plugin-emm-app-config)
 
 ## Acknowledgments
 Thank you to the following:
