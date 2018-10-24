@@ -23,7 +23,7 @@ Follow the links above to the prerequisites and install them.
 
 Be sure to add the [platforms](http://ionicframework.com/docs/cli/platform/) you will compile to.
 
-* Clone this repository: `git clone https:/github.com/audioeng/ionic-appconfig.git`.
+* Clone this repository: `git clone https://github.com/MrTechGadget/ionic-appconfig.git`.
 * Run `npm install` from the project root.
 * Run `cordova plugin add cordova-plugin-appconfig` from the project root.
 * Run `ionic cordova platform add ios android` from the project root.
@@ -37,13 +37,14 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [Ionic](http://ionicframework.com) - Framework for native mobile app development
-* [Git2Go](http://git2go.com) - Used to manage Git from iOS
 
 ## Contributing
 o
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
+
+Semantic Versioning will be used. See [https://semver.org/](https://semver.org/) for details.
 
 ## Author
 
